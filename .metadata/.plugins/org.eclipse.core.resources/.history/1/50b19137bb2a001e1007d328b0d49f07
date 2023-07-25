@@ -1,0 +1,13 @@
+package core;
+//two types
+//1.Primitive -> byte,short,int,long,float,double,boolean,char
+//2.Non - Primitive ->array,string,class
+public class Datatypes {
+	public static void main(String[] args) {
+		byte b = 1;
+		System.out.println("value of b = "+b);
+		byte a = 2;
+		System.out.println("value of a = "+a);
+		System.out.println("addition of a and b = "+(a+b));
+	}
+}

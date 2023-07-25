@@ -1,0 +1,12 @@
+package basic;
+//stream
+//1.in
+//2.out
+//3.err
+public class Second {
+	public static void main(String[] args) {
+		System.out.println("hello java");
+		System.out.print("hello again");
+		System.out.println("hello");
+	}
+}
