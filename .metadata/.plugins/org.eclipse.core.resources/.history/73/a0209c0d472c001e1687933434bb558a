@@ -1,0 +1,21 @@
+package core;
+
+import java.util.Scanner;
+
+class TakeValue {
+	public void call() {
+		System.out.println("call method in take value class");
+	}
+}
+
+public class UserINput {
+	public static void main(String[] args) {
+		int a = 10, b = 20;
+		System.out.println(a + b);
+		TakeValue obj = new TakeValue();
+		obj.call();
+		Scanner sc = new Scanner(System.in);
+		System.out.println("enter i = ");
+		int i = sc.nextInt();
+	}
+}
