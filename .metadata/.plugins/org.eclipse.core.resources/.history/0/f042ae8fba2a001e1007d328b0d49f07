@@ -1,9 +1,0 @@
-package core;
-//two types
-//1.Primitive -> byte,short,int,long,float,double,boolean,char
-//2.Non - Primitive ->array,string,class
-public class Datatypes {
-	public static void main(String[] args) {
-		byte  = 1;
-	}
-}

@@ -5,8 +5,11 @@ package core;
 //3.Encapsulation->To wrapping up data into single unit
 //4.Inheritance->To access property of one class to another class
 	//types 1.single 2.Multilevel 3.Multiple 4.Hierarchical 5.Hybrid
+	//create object of child class in inheritance
 //5.Polymorphism->same method name but having different functionality
-//6.Abstraction->hiding internal details and showing only essential info to user
+	//1.Overloading 2.Overriding
+//6.Abstraction->hiding internal details and 
+//				showing only essential info to user
 class NewData1{
 	private int i;
 	private String name;
@@ -45,6 +48,11 @@ public class P14_Encapsulation {
 	public static void main(String[] args) {
 		NewData1 d1 = new NewData1(1, "java", 23.2);
 		System.out.println(d1);
+		NewData1 d2 = new NewData1();
+		d2.setI(12);
+		d2.setName("python");
+		d2.setValue(343.3);
+		System.out.println(d2);
 //		System.out.println(d1.getI());
 //		System.out.println(d1.getName());
 //		System.out.println(d1.getValue());

@@ -1,9 +1,0 @@
-package core;
-//change value from one datatype to another datatype
-//two types -> 1.implicit 2.explicit
-public class TypesCasting {
-	public static void main(String[] args) {
-		int a = 10,b=2;
-		
-	}
-}
