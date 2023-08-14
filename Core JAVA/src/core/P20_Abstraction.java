@@ -1,6 +1,7 @@
 package core;
 //no need to create object of abstract class
 //static method called directly by class name
+//abstraction does not provide 100% abstraction
 abstract class RBI{
 	abstract public void interest();//method declaration
 	abstract public void HL();
@@ -43,6 +44,7 @@ public class P20_Abstraction {
 		SBI s=  new SBI();
 		s.interest();
 		s.HL();
+		s.repoRate();
 		SBI.repoRate();
 		JAVA j = new JAVA();
 		j.interest();

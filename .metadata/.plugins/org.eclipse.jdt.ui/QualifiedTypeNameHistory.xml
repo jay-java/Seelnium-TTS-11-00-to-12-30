@@ -9,4 +9,13 @@
     <fullyQualifiedTypeName name="core.NewData"/>
     <fullyQualifiedTypeName name="core.Hello"/>
     <fullyQualifiedTypeName name="core.NewData1"/>
+    <fullyQualifiedTypeName name="core.B"/>
+    <fullyQualifiedTypeName name="core.A"/>
+    <fullyQualifiedTypeName name="core.D"/>
+    <fullyQualifiedTypeName name="core.B1"/>
+    <fullyQualifiedTypeName name="core.C1"/>
+    <fullyQualifiedTypeName name="core.Overload"/>
+    <fullyQualifiedTypeName name="core.Child"/>
+    <fullyQualifiedTypeName name="core.SBI"/>
+    <fullyQualifiedTypeName name="core.JAVA"/>
 </qualifiedTypeNameHistroy>
