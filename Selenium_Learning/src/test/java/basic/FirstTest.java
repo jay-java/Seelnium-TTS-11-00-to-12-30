@@ -1,5 +1,6 @@
 package basic;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
@@ -14,8 +15,6 @@ public class FirstTest {
 		driver.get("https://www.facebook.com/");
 		Thread.sleep(2000);
 		driver.close();
-		
-		
 		//2.Firefox
 //		System.setProperty("webdriver.gecko.driver", "C:\\Users\\jay-pc\\Downloads\\geckodriver-v0.33.0-win64(1)\\geckodriver.exe");
 //		WebDriver driver = new FirefoxDriver();
