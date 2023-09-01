@@ -44,8 +44,8 @@ public class P001_BasicSelectors {
 		List<WebElement> list = driver.findElements(By.name("sex"));
 		System.out.println(list.size());
 		list.get(1).click();
-
-//		WebElement email = driver.findElement(By.id("email"));
+		
+		
 //		email.sendKeys("selenium@gmail.com");
 //		WebElement pass = driver.findElement(By.id("pass"));
 //		pass.sendKeys("selenium@123");
