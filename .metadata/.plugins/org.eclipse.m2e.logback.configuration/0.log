@@ -1850,3 +1850,10 @@
 2023-09-08 12:29:33,064 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jay-pc\Selenium TTS 11-00 to 12-30\Selenium_Learning\src\main\resources
 2023-09-08 12:29:33,065 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2023-09-08 12:29:33,065 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jay-pc\Selenium TTS 11-00 to 12-30\Selenium_Learning\src\test\resources
+2023-09-08 12:30:01,174 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-08 12:30:01,174 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jay-pc\Selenium TTS 11-00 to 12-30\Selenium_Learning\src\main\resources
+2023-09-08 12:30:01,175 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-08 12:30:01,175 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jay-pc\Selenium TTS 11-00 to 12-30\Selenium_Learning\src\test\resources
+2023-09-08 12:34:27,724 [Stop Help Server] INFO  org.eclipse.jetty.server.Server - Stopped Server@29e2a5f4{STOPPING}[10.0.9,sto=0]
+2023-09-08 12:34:27,729 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@26eddb2b{HTTP/1.1, (http/1.1)}{127.0.0.1:0}
+2023-09-08 12:34:27,741 [Stop Help Server] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@6e9df70{/help,null,STOPPED}
