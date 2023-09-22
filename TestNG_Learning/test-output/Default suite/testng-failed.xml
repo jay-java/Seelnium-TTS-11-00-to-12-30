@@ -3,14 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="dependency.Dependency">
+      <class name="listener.DemoTest">
         <methods>
-          <include name="login"/>
-          <include name="totalFR"/>
-          <include name="acceptFR"/>
-          <include name="logout"/>
+          <include name="test2"/>
         </methods>
-      </class> <!-- dependency.Dependency -->
+      </class> <!-- listener.DemoTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -1,60 +1,100 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="0" failed="1" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-09-20T13:12:21 IST" name="Suite" finished-at="2023-09-20T13:12:21 IST" duration-ms="149">
+  <suite started-at="2023-09-22T12:23:01 IST" name="Suite" finished-at="2023-09-22T12:23:04 IST" duration-ms="2873">
     <groups>
-      <group name="smoke">
-        <method signature="User.login()[pri:0, instance:eshop.User@223191a6]" name="login" class="eshop.User"/>
-        <method signature="Payment.COD()[pri:0, instance:eshop.Payment@557caf28]" name="COD" class="eshop.Payment"/>
-        <method signature="Product.addtoWishList()[pri:0, instance:eshop.Product@75d4a5c2]" name="addtoWishList" class="eshop.Product"/>
-        <method signature="User.register()[pri:0, instance:eshop.User@7c7a06ec]" name="register" class="eshop.User"/>
-      </group> <!-- smoke -->
-      <group name="purchase">
-        <method signature="Payment.creditCard()[pri:0, instance:eshop.Payment@5b8dfcc1]" name="creditCard" class="eshop.Payment"/>
-        <method signature="Product.addToCart()[pri:0, instance:eshop.Product@72967906]" name="addToCart" class="eshop.Product"/>
-        <method signature="User.login()[pri:0, instance:eshop.User@223191a6]" name="login" class="eshop.User"/>
-      </group> <!-- purchase -->
     </groups>
-    <test started-at="2023-09-20T13:12:21 IST" name="Test1" finished-at="2023-09-20T13:12:21 IST" duration-ms="71">
-      <class name="eshop.Product">
-        <test-method signature="addToCart()[pri:0, instance:eshop.Product@72967906]" started-at="2023-09-20T13:12:21 IST" name="addToCart" finished-at="2023-09-20T13:12:21 IST" duration-ms="1" status="PASS">
+    <test started-at="2023-09-22T12:23:01 IST" name="Test" finished-at="2023-09-22T12:23:04 IST" duration-ms="2873">
+      <class name="listener.FBTest">
+        <test-method signature="titleTest(org.testng.ITestContext)[pri:1, instance:listener.FBTest@223d2c72]" started-at="2023-09-22T12:23:01 IST" name="titleTest" finished-at="2023-09-22T12:23:04 IST" duration-ms="2698" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@76ed1b7c]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [FB] but found [Facebook – log in or sign up]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [FB] but found [Facebook – log in or sign up]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at listener.FBTest.titleTest(FBTest.java:18)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- addToCart -->
-      </class> <!-- eshop.Product -->
-      <class name="eshop.Payment">
-        <test-method signature="creditCard()[pri:0, instance:eshop.Payment@5b8dfcc1]" started-at="2023-09-20T13:12:21 IST" name="creditCard" finished-at="2023-09-20T13:12:21 IST" duration-ms="2" status="PASS">
+        </test-method> <!-- titleTest -->
+        <test-method signature="loginTest()[pri:2, instance:listener.FBTest@223d2c72]" started-at="2023-09-22T12:23:04 IST" name="loginTest" finished-at="2023-09-22T12:23:04 IST" depends-on-methods="listener.FBTest.titleTest" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method listener.FBTest.loginTest() on instance listener.FBTest@223d2c72 depends on not successfully finished methods 
+[listener.FBTest.titleTest() on instance listener.FBTest@223d2c72]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method listener.FBTest.loginTest() on instance listener.FBTest@223d2c72 depends on not successfully finished methods 
+[listener.FBTest.titleTest() on instance listener.FBTest@223d2c72]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:156)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- creditCard -->
-      </class> <!-- eshop.Payment -->
-      <class name="eshop.User">
-        <test-method signature="login()[pri:0, instance:eshop.User@223191a6]" started-at="2023-09-20T13:12:21 IST" name="login" finished-at="2023-09-20T13:12:21 IST" duration-ms="11" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-      </class> <!-- eshop.User -->
-    </test> <!-- Test1 -->
-    <test started-at="2023-09-20T13:12:21 IST" name="Test2" finished-at="2023-09-20T13:12:21 IST" duration-ms="14">
-      <class name="eshop.Product">
-        <test-method signature="addtoWishList()[pri:0, instance:eshop.Product@75d4a5c2]" started-at="2023-09-20T13:12:21 IST" name="addtoWishList" finished-at="2023-09-20T13:12:21 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addtoWishList -->
-      </class> <!-- eshop.Product -->
-      <class name="eshop.Payment">
-        <test-method signature="COD()[pri:0, instance:eshop.Payment@557caf28]" started-at="2023-09-20T13:12:21 IST" name="COD" finished-at="2023-09-20T13:12:21 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- COD -->
-      </class> <!-- eshop.Payment -->
-      <class name="eshop.User">
-        <test-method signature="register()[pri:0, instance:eshop.User@7c7a06ec]" started-at="2023-09-20T13:12:21 IST" name="register" finished-at="2023-09-20T13:12:21 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- register -->
-      </class> <!-- eshop.User -->
-    </test> <!-- Test2 -->
+        </test-method> <!-- loginTest -->
+      </class> <!-- listener.FBTest -->
+    </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
