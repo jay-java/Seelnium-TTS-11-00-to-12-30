@@ -3,11 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="listener.DemoTest">
+      <class name="parameters.LoginWithMultipleData">
         <methods>
-          <include name="test2"/>
+          <include name="openBrowser"/>
+          <include name="login"/>
         </methods>
-      </class> <!-- listener.DemoTest -->
+      </class> <!-- parameters.LoginWithMultipleData -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
